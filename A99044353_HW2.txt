@@ -1,0 +1,57 @@
+Name: Shiru Sun
+PID: A99044353
+Email: shs042@ucsd.edu
+
+
+Problem 1
+
+<!DOCTYPE result [
+<!ELEMENT  result     
+answer
+*
+>
+<!ELEMENT  answer  
+(who, when)>
+<!ELEMENT  who           #PCDATA>
+<!ELEMENT  when         #PCDATA>
+]>
+
+Answer: p1.xq
+
+
+
+Problem 2
+
+<!DOCTYPE speakers [
+<!ELEMENT  speakers        character*>
+<!ELEMENT  character      #PCDATA>
+]>
+
+Answer: p2.xp
+
+
+
+Problem 3
+
+<!DOCTYPE 
+result [
+<!ELEMENT  result       answer*>
+<!ELEMENT  answer    (who, when
+*)>
+<!ELEMENT  who           #PCDATA>
+<!ELEMENT  when        #PCDATA>
+]>
+
+Answer: p3.xq
+
+
+
+
+Problem 4
+
+<!DOCTYPE result [
+<!ELEMENT  result            character*>
+<!ELEMENT  character     #PCDATA>
+]>
+
+Answer: p4.xq
